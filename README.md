@@ -70,6 +70,12 @@ The JSON output contains acceptance, diagnostics with falsifying local Boolean
 valuations, computed goodness masks, and phase/stage resource witnesses.
 Exit status is 0 for acceptance and 2 for rejection or a handled input error.
 The command-line reader rejects duplicate JSON keys and files above 4 MiB.
+`guard_ready` and `input_ready` must be JSON objects whose keys exactly match
+the declared atoms and inputs. Every release is a JSON integer from 0 through
+4096; JSON Booleans are not integers for this purpose. Arrays, strings, `null`,
+a missing or extra key, and a non-integer release are returned as
+`accepted: false` with a `format` diagnostic rather than reaching mapping
+operations or producing a traceback.
 An optional `--input path.json` compares the two executions after admission;
 this option assumes the well-formed finite input format described below. It is
 not an adversarial execution sandbox. The bounded reproduction driver should
@@ -191,9 +197,18 @@ interval bound and diagnostics. It is not a proof of global infeasibility.
 `certificate_oracle.py` defines the complete 216-certificate grammar.
 `dominance.py` performs the exploratory 96-by-64 implication test.
 `summarize.py` reconciles all tables into `results/summary.json`.
-`tests/test_semantics.py` contains 18 focused checks, including two retained
-implementation regressions. The regressions preserve the actual witness, not
-a claim that the repaired implementation is now generally proved correct.
+`tests/test_semantics.py` remains byte-for-byte unchanged and contains the
+original 18 focused checks, including two retained implementation regressions.
+`tests/test_format_validation.py` adds three API/CLI methods for the F1 format
+boundary: same-name arrays, strings, `null`, exact availability keys, strict
+integer releases, and the normal object case. A targeted post-repair run passed
+the original 18, the new three, and all 21 under discovery; the exact output is
+`results/unit-tests.txt` and the direct probes are in
+`results/f1-format-validation.json`. A standalone `verify_results.py` pass
+reconciled retained counts and stored cases against the current checker; it did
+not regenerate experiments or recertify the full 16-stage sequence. The
+regressions preserve the actual witnesses,
+not a claim that the repaired implementation is now generally proved correct.
 
 `cases/generated/` contains all generated source schemas, admitted certificates,
 construction-failure candidates and exact sampled execution inputs. The fixed

@@ -1,3 +1,6 @@
+test_api_checks_exact_keys_and_integer_releases (test_format_validation.AvailabilityFormatTests.test_api_checks_exact_keys_and_integer_releases) ... ok
+test_api_rejects_non_object_availability_maps (test_format_validation.AvailabilityFormatTests.test_api_rejects_non_object_availability_maps) ... ok
+test_cli_returns_json_and_status_two_for_malformed_maps (test_format_validation.AvailabilityFormatTests.test_cli_returns_json_and_status_two_for_malformed_maps) ... ok
 test_bad_shape_fails_closed (test_semantics.SemanticsTests.test_bad_shape_fails_closed) ... ok
 test_catalogue_admission (test_semantics.SemanticsTests.test_catalogue_admission) ... ok
 test_false_activation_availability_regression (test_semantics.SemanticsTests.test_false_activation_availability_regression) ... ok
@@ -18,6 +21,6 @@ test_wrong_path_fault_is_not_observable (test_semantics.SemanticsTests.test_wron
 test_zero_trip_and_drain (test_semantics.SemanticsTests.test_zero_trip_and_drain) ... ok
 
 ----------------------------------------------------------------------
-Ran 18 tests in 0.030s
+Ran 21 tests in 4.935s
 
 OK

@@ -26,6 +26,16 @@ def integer(x: Any, lo: int, hi: int, label: str) -> int:
     return x
 
 
+def _release_map(value: Any, expected: set[str], label: str) -> None:
+    """Validate a JSON availability object before using mapping methods."""
+    if not isinstance(value, dict):
+        raise FormatError(f'{label} must be an object')
+    if set(value) != expected:
+        raise FormatError(f'{label} keys must exactly match declarations')
+    for name in sorted(expected):
+        integer(value[name], 0, 4096, f'{label}[{name}] release time')
+
+
 def _source_identity(ref: dict[str, Any]) -> tuple:
     if not isinstance(ref, dict):
         raise FormatError('Reference must be an object')
@@ -58,10 +68,8 @@ def _shape(p: dict[str, Any]) -> None:
     atoms = set(p['actual']) | set(p['predicted'])
     if len(atoms) > 10:
         raise FormatError('At most 10 Boolean atoms are supported')
-    if set(p['guard_ready']) != atoms or set(p['input_ready']) != set(p['inputs']):
-        raise FormatError('Availability map does not match declarations')
-    for x in list(p['guard_ready'].values()) + list(p['input_ready'].values()):
-        integer(x, 0, 4096, 'release time')
+    _release_map(p['guard_ready'], atoms, 'guard_ready')
+    _release_map(p['input_ready'], set(p['inputs']), 'input_ready')
     if not isinstance(p['resources'], dict) or not p['resources']:
         raise FormatError('Nonempty capacity map required')
     for x in p['resources'].values():
