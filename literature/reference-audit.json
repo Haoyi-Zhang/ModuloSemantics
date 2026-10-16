@@ -219,7 +219,10 @@
     "verification_method": "Manual first-party publication/author-source cross-check; not an automatic DOI API audit",
     "checked_on": "2026-10-04",
     "limitations": "No exhaustive novelty certification; third-party PDF not redistributed",
-    "cited_in": "sections/08-related.tex"
+    "cited_in": "sections/08-related.tex",
+    "articleno": "129",
+    "numpages": "29",
+    "locator_verification": "Missing locators checked against publisher-deposited Crossref metadata on 2026-10-16; Six article 129 additionally cross-checked against the published citation."
   },
   {
     "key": "six2022",
@@ -256,7 +259,10 @@
     "verification_method": "Manual first-party publication/author-source cross-check; not an automatic DOI API audit",
     "checked_on": "2026-10-04",
     "limitations": "No exhaustive novelty certification; third-party PDF not redistributed",
-    "cited_in": "sections/08-related.tex"
+    "cited_in": "sections/08-related.tex",
+    "pages": "65--79",
+    "publisher": "Association for Computing Machinery",
+    "locator_verification": "Missing locators checked against publisher-deposited Crossref metadata on 2026-10-16; Six article 129 additionally cross-checked against the published citation."
   },
   {
     "key": "smith1988",
@@ -354,7 +360,10 @@
     "verification_method": "Manual first-party publication/author-source cross-check; not an automatic DOI API audit",
     "checked_on": "2026-10-04",
     "limitations": "No exhaustive novelty certification; third-party PDF not redistributed",
-    "cited_in": "sections/08-related.tex"
+    "cited_in": "sections/08-related.tex",
+    "pages": "1--7",
+    "publisher": "IEEE",
+    "locator_verification": "Missing locators checked against publisher-deposited Crossref metadata on 2026-10-16; Six article 129 additionally cross-checked against the published citation."
   },
   {
     "key": "eager2026",
@@ -678,7 +687,9 @@
     "primary_record": "https://doi.org/10.1145/3705732",
     "technical_source": "https://scholars.cityu.edu.hk/en/publications/a-speculative-loop-pipeline-framework-with-accurate-path-modeling/",
     "inspected_scope": "Institutional publication metadata and abstract; source-level path modeling and speculation scope only",
-    "access_level": "metadata_or_abstract"
+    "access_level": "metadata_or_abstract",
+    "numpages": "33",
+    "locator_verification": "Missing locators checked against publisher-deposited Crossref metadata on 2026-10-16; Six article 129 additionally cross-checked against the published citation."
   },
   {
     "entire_fulltext_read_claim": false,
@@ -714,7 +725,10 @@
     "venue": "Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation",
     "primary_record": "https://dl.acm.org/doi/10.1145/155090.155115",
     "technical_source": "https://iss.oden.utexas.edu/Publications/Papers/PLDI1993b.pdf",
-    "inspected_scope": "Sections 1-3 and 5-7: bidirectional placement, rotating values, lifetime pressure and evaluation. No global optimum claim inferred from heuristic results."
+    "inspected_scope": "Sections 1-3 and 5-7: bidirectional placement, rotating values, lifetime pressure and evaluation. No global optimum claim inferred from heuristic results.",
+    "pages": "258--267",
+    "publisher": "Association for Computing Machinery",
+    "locator_verification": "Missing locators checked against publisher-deposited Crossref metadata on 2026-10-16; Six article 129 additionally cross-checked against the published citation."
   },
   {
     "access_level": "technical_fulltext_passages",
@@ -732,7 +746,12 @@
     "venue": "ACM Transactions on Programming Languages and Systems",
     "primary_record": "https://unison-code.github.io/publications.html",
     "technical_source": "https://arxiv.org/pdf/1804.02452",
-    "inspected_scope": "Author version v5: introduction, model overview, allocation features and evaluation discussion. Integrated placement/allocation is broader than the present fixed-skeleton tagged banks."
+    "inspected_scope": "Author version v5: introduction, model overview, allocation features and evaluation discussion. Integrated placement/allocation is broader than the present fixed-skeleton tagged banks.",
+    "volume": "41",
+    "number": "3",
+    "pages": "1--53",
+    "numpages": "53",
+    "locator_verification": "Missing locators checked against publisher-deposited Crossref metadata on 2026-10-16; Six article 129 additionally cross-checked against the published citation."
   },
   {
     "access_level": "technical_fulltext_passages",
@@ -906,7 +925,7 @@
     "key": "lynch1995",
     "kind": "article",
     "title": "Forward and Backward Simulations: I. Untimed Systems",
-    "author": "Lynch, N. and Vaandrager, F.",
+    "author": "Lynch, Nancy A. and Vaandrager, Frits W.",
     "year": "1995",
     "doi": "10.1006/inco.1995.1134",
     "venue": "Information and Computation",

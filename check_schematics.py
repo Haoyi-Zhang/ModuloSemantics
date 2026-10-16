@@ -35,7 +35,7 @@ def main():
                     descriptor=target.get_object().get('/FontDescriptor')
                     if not descriptor or not any(k in descriptor.get_object() for k in ('/FontFile','/FontFile2','/FontFile3')):
                         raise AssertionError('unembedded font: '+name)
-        print('Three deterministic namespace vector figures with embedded fonts: PASS')
+        print(f'{len(NAMES)} deterministic vector figures with embedded fonts: PASS')
 
 if __name__=='__main__':
     main()
