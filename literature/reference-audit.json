@@ -332,17 +332,21 @@
     "author": "Dylan Leothaud and Jean-Michel Gorius and Simon Rokicki and Steven Derrien",
     "year": "2025",
     "doi": "10.1109/DAC63849.2025.11133015",
-    "venue": "ACM/IEEE Design Automation Conference",
-    "pages": "1--7",
+    "venue": "Proceedings of the 62nd Annual ACM/IEEE Design Automation Conference",
+    "pages": "",
     "primary_record": "https://doi.org/10.1109/DAC63849.2025.11133015",
     "technical_source": "https://dleothaud.fr/pdf/DAC_2025_presentation.pdf",
     "inspected_scope": "DAC author presentation, slides 5-7; diagrams inspected. Recovery restoration, unused-state elimination, narrower-width retiming and reversible operators; no inference about unexamined paper proofs.",
     "access_level": "author_presentation",
     "entire_fulltext_read_claim": false,
     "verification_method": "Manual first-party publication/author-source cross-check; not an automatic DOI API audit",
-    "checked_on": "2026-10-05",
+    "checked_on": "2026-10-16",
     "limitations": "Companion presentation is not whole-paper reading or a replacement for the unavailable paper; not counted in full-paper calibration",
-    "cited_in": "sections/08-related.tex"
+    "cited_in": "sections/08-related.tex",
+    "publisher": "IEEE Press",
+    "locator_verification": "Publisher BibTeX export supplied by the user on 2026-10-16; authors, title, publication, DOI and article/page locators compared with the current entry.",
+    "articleno": "274",
+    "numpages": "7"
   },
   {
     "key": "leothaud2026",
@@ -351,19 +355,19 @@
     "author": "Dylan Leothaud and Simon Rokicki and Steven Derrien and Isabelle Puaut",
     "year": "2026",
     "doi": "10.23919/DATE69613.2026.11539349",
-    "venue": "Design, Automation and Test in Europe Conference",
+    "venue": "2026 Design, Automation \\& Test in Europe Conference (DATE)",
     "primary_record": "https://doi.org/10.23919/DATE69613.2026.11539349",
     "technical_source": "https://dleothaud.fr/",
     "inspected_scope": "Publication metadata and published scope only; no theorem-level absence inference",
     "access_level": "metadata_or_abstract",
     "entire_fulltext_read_claim": false,
     "verification_method": "Manual first-party publication/author-source cross-check; not an automatic DOI API audit",
-    "checked_on": "2026-10-04",
+    "checked_on": "2026-10-16",
     "limitations": "No exhaustive novelty certification; third-party PDF not redistributed",
     "cited_in": "sections/08-related.tex",
     "pages": "1--7",
     "publisher": "IEEE",
-    "locator_verification": "Missing locators checked against publisher-deposited Crossref metadata on 2026-10-16; Six article 129 additionally cross-checked against the published citation."
+    "locator_verification": "Publisher BibTeX export supplied by the user on 2026-10-16; authors, title, publication, DOI and article/page locators compared with the current entry."
   },
   {
     "key": "eager2026",
@@ -372,7 +376,7 @@
     "author": "Shun Katsumi and Emmet Murphy and Lana Josipovi{\\'c}",
     "year": "2026",
     "doi": "10.1145/3748173.3779196",
-    "venue": "Proceedings of the ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+    "venue": "Proceedings of the 2026 ACM/SIGDA International Symposium on Field Programmable Gate Arrays",
     "pages": "103--113",
     "primary_record": "https://doi.org/10.1145/3748173.3779196",
     "technical_source": "https://dynamo.ethz.ch/publications/",
@@ -380,9 +384,12 @@
     "access_level": "metadata_or_abstract",
     "entire_fulltext_read_claim": false,
     "verification_method": "Manual first-party publication/author-source cross-check; not an automatic DOI API audit",
-    "checked_on": "2026-10-04",
+    "checked_on": "2026-10-16",
     "limitations": "No exhaustive novelty certification; third-party PDF not redistributed",
-    "cited_in": "sections/08-related.tex"
+    "cited_in": "sections/08-related.tex",
+    "publisher": "Association for Computing Machinery",
+    "locator_verification": "Publisher BibTeX export supplied by the user on 2026-10-16; authors, title, publication, DOI and article/page locators compared with the current entry.",
+    "numpages": "11"
   },
   {
     "key": "flowcert2024",
@@ -671,7 +678,7 @@
   {
     "entire_fulltext_read_claim": false,
     "verification_method": "Manual first-party publication/author-source cross-check; not an automatic DOI API audit",
-    "checked_on": "2026-10-04",
+    "checked_on": "2026-10-16",
     "limitations": "No exhaustive novelty certification; third-party PDF not redistributed",
     "cited_in": "sections/08-related.tex",
     "key": "she2025",
@@ -689,7 +696,9 @@
     "inspected_scope": "Institutional publication metadata and abstract; source-level path modeling and speculation scope only",
     "access_level": "metadata_or_abstract",
     "numpages": "33",
-    "locator_verification": "Missing locators checked against publisher-deposited Crossref metadata on 2026-10-16; Six article 129 additionally cross-checked against the published citation."
+    "locator_verification": "Publisher BibTeX export supplied by the user on 2026-10-16; authors, title, publication, DOI and article/page locators compared with the current entry.",
+    "pages": "",
+    "publisher": "Association for Computing Machinery"
   },
   {
     "entire_fulltext_read_claim": false,

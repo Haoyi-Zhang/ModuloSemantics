@@ -26,5 +26,17 @@
       "observed": "JavaScript/robot verification page"
     }
   ],
-  "absence_of_a_prior_mechanism_inferred": false
+  "absence_of_a_prior_mechanism_inferred": false,
+  "publisher_exports_checked": {
+    "date": "2026-10-16",
+    "citation_keys": [
+      "leothaud2025",
+      "leothaud2026",
+      "eager2026",
+      "she2025"
+    ],
+    "source": "BibTeX exports and three abstracts supplied by the user from publisher pages",
+    "scope": "Publication identity and supplied abstract-level descriptions; not complete paper reading",
+    "paper_body_comparisons_changed": false
+  }
 }
