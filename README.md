@@ -142,5 +142,17 @@ source identities and reading/access boundaries. No third-party paper PDFs are
 redistributed. Original code, cases, results and exposition are MIT-licensed;
 see `LICENSE` and `licenses/README.md`. Publisher rights remain upstream.
 
-The experiments execute the
-included deterministic Python programs; they do not execute a language model.
+
+
+## Paper diagrams
+
+Canonical repository: https://github.com/Haoyi-Zhang/ModuloSemantics.
+
+The optional Python diagrams preserve the stated phase/stage and private-ticket
+relations. They do not execute the finite campaign:
+
+```sh
+python -m pip install -r requirements-figures.txt
+python -B plot_schematics.py --outdir ../paper/figures
+python -B check_schematics.py
+```

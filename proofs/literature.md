@@ -1,7 +1,7 @@
 # Baseline comparison scope
 
 This note records the inherited retirement-only comparison. The current
-38-reference inventory and access scopes are in ../literature/reference-audit.json;
+50-reference inventory and access scopes are in ../literature/reference-audit.json;
 the research manuscript compares the new export/annotation theorem separately.
 
 # Literature evidence and unresolved boundary
@@ -51,7 +51,7 @@ or influence class has been assigned without evidence.
 
 The required twelve same-venue, five influential and five adjacent full-paper
 calibration remains incomplete. The initial five-source set was not a calibrated bibliography; the current
-38-source inventory is also not a claim that the whole-paper calibration was
+50-source inventory is also not a claim that the whole-paper calibration was
 completed. Unavailable papers or abstracts are not counted as read.
 The exact next scientific action is to complete the strongest full-text
 comparison before asserting a new formulation; the retained proofs and finite

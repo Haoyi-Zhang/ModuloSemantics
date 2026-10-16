@@ -1,8 +1,11 @@
 # Literature access and attribution
 
-`reference-audit.json` and CSV record 38 distinct references used in the
+`reference-audit.json` and CSV record 50 distinct references used in the
 manuscript, their primary identifiers, inspected scope and use locations.
-This is a manual first-party cross-check, not a simulated Crossref API run.
+The inherited 38 records retain their recorded first-party access scope.
+Twelve added identities were aligned with actual citation sites and cross-checked
+against publisher-deposited Crossref metadata on 2026-10-16; these additions do
+not assert fresh full-text reading.
 Seventeen records identify inspected technical full-text passages; this does
 not mean seventeen papers were independently reviewed in their entirety.
 Other entries support bibliographic/background or abstract-level scope only.
@@ -13,4 +16,4 @@ full text are not evidence of an absence of related results.
 The original requested 12-TOPLAS/5-classic/5-neighbor full-text calibration
 is not certified by this inventory. The manuscript does not claim an
 exhaustive novelty search or that a numerical citation count establishes
-journal quality. All 38 entries are cited; no `nocite` padding is used.
+journal quality. All 50 entries are cited; no `nocite` padding is used.
