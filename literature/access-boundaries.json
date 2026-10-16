@@ -38,5 +38,133 @@
     "source": "BibTeX exports and three abstracts supplied by the user from publisher pages",
     "scope": "Publication identity and supplied abstract-level descriptions; not complete paper reading",
     "paper_body_comparisons_changed": false
+  },
+  "historical_observations_note": "The retained failed routes, presentation access and publisher-export scope describe earlier attempts. Current resolutions below do not erase those observations.",
+  "current_resolution": {
+    "checked_on": "2026-10-16",
+    "complete_supplied_originals": [
+      {
+        "key": "leothaud2025",
+        "doi": "10.1109/DAC63849.2025.11133015",
+        "pages_read": 7,
+        "scope": "Complete supplied original: all 7 physical pages; all scientific figures and tables inspected.",
+        "status": "complete_original_reading_for_current_comparison"
+      },
+      {
+        "key": "leothaud2026",
+        "doi": "10.23919/DATE69613.2026.11539349",
+        "pages_read": 7,
+        "scope": "Complete supplied original: all 7 physical pages; all scientific figures and tables inspected.",
+        "status": "complete_original_reading_for_current_comparison"
+      },
+      {
+        "key": "eager2026",
+        "doi": "10.1145/3748173.3779196",
+        "pages_read": 11,
+        "scope": "Complete supplied original: all 11 physical pages; all scientific figures and tables inspected.",
+        "status": "complete_original_reading_for_current_comparison"
+      },
+      {
+        "key": "she2025",
+        "doi": "10.1145/3705732",
+        "pages_read": 33,
+        "scope": "Complete supplied original: all 33 physical pages (article 17:1-17:33); all numbered figures and tables inspected.",
+        "status": "complete_original_reading_for_current_comparison"
+      }
+    ],
+    "selected_original_passage_keys": [
+      "lam1988",
+      "tristan2010",
+      "herklotz2024",
+      "boudol2010",
+      "melchert2025",
+      "pnueli1998",
+      "necula2000",
+      "leroy2009",
+      "tristan2008",
+      "herklotz2021",
+      "alive2",
+      "smith1988",
+      "mahlke1993",
+      "josipovic2019",
+      "flowcert2024",
+      "elasticmiter2025",
+      "graphiti2026",
+      "wavelet2026",
+      "rau1994",
+      "wilken-scheduling",
+      "sittel-rational",
+      "zalamea-spill",
+      "nagarakatte-spill",
+      "josipovic-buffers",
+      "cheng2021",
+      "roorda2026",
+      "huff1993",
+      "unison2019",
+      "hauser1996",
+      "abadi1991",
+      "briggs1994",
+      "bryant1986",
+      "chaitin1981",
+      "cvc42011",
+      "dealfaro2001",
+      "infinitegames2002",
+      "lynch1995",
+      "necula1997",
+      "pnuelirosner1989",
+      "reif1984",
+      "z32008"
+    ],
+    "selected_primary_abstract_keys": [
+      "six2020",
+      "six2022",
+      "palem1993",
+      "leung2001",
+      "rau-registers"
+    ],
+    "unresolved_claim_support_keys": [],
+    "claim_support_counts": {
+      "supported_current_claims": 50,
+      "unresolved_current_claims": 0
+    },
+    "current_body_comparisons_updated": true,
+    "presentation_is_paper_substitute": false,
+    "independent_original_proof_certification": false,
+    "copyrighted_texts_redistributed": false,
+    "additional_failed_routes": [
+      {
+        "url": "https://dl.acm.org/doi/10.1145/143095.143141",
+        "result": "Web fetch failed; ordinary public PDF request returned HTTP 403. No credential, cookie, proxy or user-agent evasion attempted."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1145/143095.143141",
+        "result": "Publisher-deposited identity retrieved, abstract field absent; metadata is not support."
+      },
+      {
+        "url": "https://www.hpl.hp.com/techreports/92/HPL-92-48.pdf",
+        "result": "Not accessible via web tool."
+      },
+      {
+        "url": "https://www.labs.hpe.com/techreports/92/HPL-92-48.pdf",
+        "result": "Web retrieval failed; ordinary Python request failed certificate verification. Verification was not disabled."
+      },
+      {
+        "url": "https://www.researchgate.net/profile/Michael-Schlansker/publication/213893822_Register_Allocation_for_Modulo_Scheduled_Loops_Strategies_Algorithms_and_Heuristics/links/0a85e52f9706f5a6f2000000/Register-Allocation-for-Modulo-Scheduled-Loops-Strategies-Algorithms-and-Heuristics.pdf",
+        "result": "Public coauthor PDF link did not yield content. No login/request-for-copy or bypass attempted."
+      }
+    ],
+    "resolution_of_prior_rau_gap": {
+      "checked_on": "2026-10-16",
+      "status": "bounded_current_claims_supported_by_primary_publisher_abstract",
+      "source": "https://api.crossref.org/works/10.1145/143103.143141",
+      "primary_publication": "https://dl.acm.org/doi/10.1145/143103.143141",
+      "companion_doi": "10.1145/143103.143141",
+      "cited_proceedings_doi": "10.1145/143095.143141",
+      "identity": "Same title, four authors in the same order, year and pp. 283-299; companion version is explicit.",
+      "full_body_read": false,
+      "prior_failed_routes_retained": true,
+      "scope": "Original abstract directly supports the with/without-specialized-hardware attribution. The coordinated allocation-scope comparison also uses the two separately read spill-paper bodies; no algorithm, theorem or measurement is inferred from the abstract."
+    },
+    "scope": "Four complete originals; other sources only named original body passages or explicitly identified primary abstracts. All current bounded citation claims are mapped; Rau's full body remains unavailable and uncredited. No novelty, absence or whole-library proof certification follows."
   }
 }

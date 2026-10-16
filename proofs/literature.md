@@ -1,58 +1,38 @@
-# Baseline comparison scope
+# Scientific comparison with related work
 
-This note records the inherited retirement-only comparison. The current
-50-reference inventory and access scopes are in ../literature/reference-audit.json;
-the research manuscript compares the new export/annotation theorem separately.
+P096 separates a source-correct private value-or-fault export from source-ordered
+public retirement. Its optimization fixes source identities and dependence
+distances, operation placements, latencies, releases and resource reservations.
+It chooses carried Ret/Forward annotations and fixed export times, minimizing
+separate uniform iteration-tagged forwarding banks. The inclusive lifetime count
+uses export-before-read event order and the labelled reservation envelope, not
+all target registers or physical area.
 
-# Literature evidence and unresolved boundary
-
-This note retains the retirement-only technical locators from the supplied
-record; those locators were not all reacquired in the current run. Current
-per-source access levels are in the bibliography ledger. Neither is a systematic
-review or a completed venue calibration. Public access does not grant redistribution permission.
-No external paper or implementation is needed to reproduce the finite tests.
-The URLs and access statuses are recorded in `../external_resources.csv`.
-
-| Source | Exact technical locator consulted | Reusable context and boundary |
+| Source | Original technical passages | Comparison with P096 |
 |---|---|---|
-| Tristan and Leroy, POPL 2010, DOI 10.1145/1706299.1706311 | Software-pipelining validation algorithm; symbolic equivalence conditions; correctness/proof-status discussion; section 10 extensions | Unbounded-loop validation already exists. Compare the present ticket relation, not the idea of checking a schedule. |
-| Herklotz and Wickerson, PLDI 2024, DOI 10.1145/3656455 | Sections 6.3–6.4 (encountered computations and symbolic validation); discussion identifying modulo scheduling as future work | Predicated symbolic summaries and fault-aware obligations already exist. Local guard validity alone is not a novelty claim. |
-| Boudol and Petri, ESOP 2010, DOI 10.1007/978-3-642-11957-6_10 | Sequential speculative event semantics and validity conditions in the author preprint; printed preprint page 11 inspected | Prior semantic principles for speculative computation must be distinguished from this particular source-identity certificate. |
-| Melchert et al., FMCAD 2025, DOI 10.34727/2025/isbn.978-3-85448-084-6_26 | Introduction; transition-system representations and timing-aligned checking; PDF page 5 figure inspected | Its accelerator validation evidence is not reproduced here. A shared scheduling vocabulary does not transfer its hardware results. |
+| Tristan and Leroy, POPL 2010, DOI 10.1145/1706299.1706311 | Section 4 encountered computations; Sections 5-6.1 bounded equations and arbitrary-bound unrolled-loop correctness; Section 6.2 CFG extension and proof status. Physical pp. 4, 6-7. | Failure-sensitive validation and arbitrary-loop-bound reasoning are established context. P096 supplies a different timed ticket/export relation; its handwritten proof and finite checker do not inherit the source's Coq assurance. |
+| Herklotz and Wickerson, PLDI 2024, DOI 10.1145/3656455 | Sections 5 and 6.4-6.5; predicated summaries, encountered expressions, constructor/validator distinction and future modulo scheduling. Physical pp. 2, 8, 13-14. | Predicated validation can account for encountered computations that fail. P096's predicates are exogenous inputs with declared releases; its periodic causal-selector and bank objective keep those premises explicit. |
+| Leothaud et al., DAC 2025, DOI 10.1109/DAC63849.2025.11133015 | Sections III-A/D, physical pp. 3-5; Figures 4-7. | Reversibility, speculative-gamma postdominance and constrained, bit-width-weighted retiming simplify or relocate rollback state. P096 changes carried annotations and export times on fixed placements; a forwarding-cell objective is not the rollback-register or hardware-area objective. |
+| Leothaud et al., DATE 2026, DOI 10.23919/DATE69613.2026.11539349 | Section III and III-C/E, physical pp. 2-5; Figures 3-6; Section V, p. 6. | Unpipelining separately schedules a speculative core and recovery work, using mutual exclusion for resource sharing and speculative array partitioning. Its deterministic fallback can stall the pipeline. P096 retains supplied reservations and does not repair a capacity violation by stalling. |
+| EagerlyElastic, FPGA 2026, DOI 10.1145/3748173.3779196 | Sections 3.5 and 4.1-4.5, physical pp. 5-7 (printed 107-109); Figures 3-5; Sections 5-6, p. 8. | Context-dependent rewrites verified with ElasticMiter move suppressors, permit eager paths and repeated loop re-entry, and retain computational units. Delayed commitment and unchanged computational units are genuine overlap, not P096's differentiator. The fixed timed value-or-fault interface and separate-bank objective specify P096's problem. |
+| She et al., TRETS 2025, DOI 10.1145/3705732 | Section 4.2, physical pp. 11-12; Section 5.1, pp. 12-14; Section 5.4, pp. 16-18; Figures 3-4 and 6. | ASLP tunes transformed recurrence paths through backend synthesis, analyzes storage overhead from overestimation and connects separately synthesized components with FIFOs. Within-component speculative recurrences can require rollback/replay; inter-component outputs enter the FIFO only after commitment. P096 exports already-correct denotations without later repair before public retirement. |
 
-The handwritten arguments concern a specific language and pair of constructors.
-They are not proofs that the combination is new or important enough for a
-journal. The phase/stage bound is an auxiliary separability argument, not a
-publication-level novelty claim by itself. The constructor-dominance theorem
-explains why this full-replay design cannot improve the tested period objective;
-it neither establishes a new practical optimization nor rules out other designs.
+Instruction scheduling, lifetime-sensitive placement, register allocation,
+spilling and elastic-network buffering consider related but different choices.
+The per-source ledger gives the selected formulations and their assumptions.
+In particular, separate uniform banks exclude shared allocation, spilling and
+rematerialization; fixed offsets exclude moving instructions to shorten live
+ranges; the unconditional labelled envelope differs from backpressured FIFO
+occupancy. These distinctions specify the admitted optimization domain.
 
-## Unresolved sources
+The observation theorem preserves the emission trace, last-value map and first
+defined source fault in the stated lifted, deterministic language. A trapping
+instruction, irreversible store or concurrent memory system needs its own
+semantic mapping. Source hardware evaluations use different implementations and
+costs and are not measurements of P096. Reproducing the artifact's finite tests
+requires no external paper or implementation.
 
-Lam's 1988 sole-author paper has verified bibliographic identity, but its full
-substantive text was not retrieved from the supplied author endpoint. The
-historical source must not be described as merely “performance-only,” or as
-excluding conditionals, on the basis of its title. No precise absence claim
-about its guarantees is made here.
-
-Two directly relevant primary records require full-paper comparison: She et al.,
-*A Speculative Loop Pipeline Framework with Accurate Path Modeling for
-High-Level Synthesis* (2025), DOI 10.1145/3705732; and Leothaud et al.,
-*Area Efficient Speculative Loop Pipelining for High-Level Synthesis* (2026),
-DOI 10.23919/DATE69613.2026.11539349. Their full text was not available through
-the attempted endpoints. An indexed poster is not a full-paper substitute.
-Roorda's arXiv:2601.21842 is an additional 2026 scheduling lead, so optimal
-scheduling and solver-comparison claims would require separate inspection.
-
-The author preprint of *Atomicity Refinement for Verified Compilation* is a
-potential TOPLAS calibration lead, but its first page contains publisher
-placeholders. It is not counted as a verified final journal article. No award
-or influence class has been assigned without evidence.
-
-The required twelve same-venue, five influential and five adjacent full-paper
-calibration remains incomplete. The initial five-source set was not a calibrated bibliography; the current
-50-source inventory is also not a claim that the whole-paper calibration was
-completed. Unavailable papers or abstracts are not counted as read.
-The exact next scientific action is to complete the strongest full-text
-comparison before asserting a new formulation; the retained proofs and finite
-evidence should be preserved while doing so.
+Detailed source versions, exact current citation sentences, locators, reading
+scope and remaining proof/implementation limits are recorded in
+[`../literature/reference-audit.json`](../literature/reference-audit.json).
+Third-party texts and figures are not redistributed.
