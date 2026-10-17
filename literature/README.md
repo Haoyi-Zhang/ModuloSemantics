@@ -28,7 +28,7 @@ remains unread and is not credited.
 
 The comparisons concern width-weighted rollback placement, unpipelining and
 resource sharing, context-dependent elastic rewrites, and iterative recurrence-
-path modeling with committed inter-component FIFOs. P096 fixes operation
+path modeling with committed inter-component FIFOs. ModuloSemantics fixes operation
 placements, latencies and resource reservations while choosing Ret/Forward
 annotations and export times for separate uniform tagged forwarding banks.
 The scientific comparison is summarized in
