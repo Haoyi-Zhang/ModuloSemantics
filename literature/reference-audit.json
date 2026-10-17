@@ -10,7 +10,7 @@
     "pages": "318--328",
     "primary_record": "https://doi.org/10.1145/53990.54022",
     "technical_source": "https://suif.stanford.edu/papers/lam-sp.pdf",
-    "inspected_scope": "Selected original passages: complete overlap/II definition, pipeline example and scheduling-constraint explanation against both current P096 sentences.",
+    "inspected_scope": "Selected original passages: complete overlap/II definition, pipeline example and scheduling-constraint explanation against both current ModuloSemantics sentences.",
     "access_level": "technical_fulltext_passages",
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
@@ -41,7 +41,7 @@
         "locators": [
           "Introduction and §2/§2.1, printed pp.318–320 / PDF pp.1–3"
         ],
-        "read_scope": "Selected original passages: complete overlap/II definition, pipeline example and scheduling-constraint explanation against both current P096 sentences.",
+        "read_scope": "Selected original passages: complete overlap/II definition, pipeline example and scheduling-constraint explanation against both current ModuloSemantics sentences.",
         "support_basis": "The source explicitly overlaps successive iterations, defines II separately from iteration latency, and demonstrates a new iteration each cycle while earlier ones remain active. Both the overlap statement and historical scheduling role are supported; no performance result is transferred.",
         "limits": "Later algorithms/evaluation and full correctness not certified."
       },
@@ -55,7 +55,7 @@
         "locators": [
           "Introduction and §2/§2.1, printed pp.318–320 / PDF pp.1–3"
         ],
-        "read_scope": "Selected original passages: complete overlap/II definition, pipeline example and scheduling-constraint explanation against both current P096 sentences.",
+        "read_scope": "Selected original passages: complete overlap/II definition, pipeline example and scheduling-constraint explanation against both current ModuloSemantics sentences.",
         "support_basis": "The source explicitly overlaps successive iterations, defines II separately from iteration latency, and demonstrates a new iteration each cycle while earlier ones remain active. Both the overlap statement and historical scheduling role are supported; no performance result is transferred.",
         "limits": "Later algorithms/evaluation and full correctness not certified."
       }
@@ -523,7 +523,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Full Coq development, appendix conversion implementation and later efficiency evaluation unread; no proof-assistant execution. No claim that the P096 ticket language is automatically translated into this Mach representation, nor that all loop/predicated scheduling is covered.",
+    "limitations": "Full Coq development, appendix conversion implementation and later efficiency evaluation unread; no proof-assistant execution. No claim that the ModuloSemantics ticket language is automatically translated into this Mach representation, nor that all loop/predicated scheduling is covered.",
     "cited_in": "sections/08-related.tex",
     "bibliographic_identity_check": {
       "doi_matches_current_bibliography": true,
@@ -563,7 +563,7 @@
         ],
         "read_scope": "Selected original passages: 2.1 validator acceptance contract equations1-2 and Theorem1 composition rationale; 2.2-4 symbolic resource maps plus encountered-computation constraint sets; 4.3 Lemma3 supplied proof from Lemmas1-2 and4.4 Theorem2 block-oriented preservation proof; 5.1-5.4 tree/CFG validators, branch-operand equality, Theorem3 and bidirectional conversion Lemma6; 6 mechanization, well-founded recursion and conversion cutpoint validation opening",
         "support_basis": "The block validator compares symbolic final-state maps and requires target encountered-computation constraints to be a subset of source constraints; Lemma3 proves target successful execution and equal state given a successful source block. Tree validators extend this to restricted trace scheduling and preserve tested branch operands. Section6 describes Coq implementation/proof machinery. The current first clause is supported; the separate2010 clause has its own retained source assessment and is not certified from this2008 paper. Source faults are excluded by successful-source premises rather than preserved as publicly defined error tickets.",
-        "limits": "Full Coq development, appendix conversion implementation and later efficiency evaluation unread; no proof-assistant execution. No claim that the P096 ticket language is automatically translated into this Mach representation, nor that all loop/predicated scheduling is covered."
+        "limits": "Full Coq development, appendix conversion implementation and later efficiency evaluation unread; no proof-assistant execution. No claim that the ModuloSemantics ticket language is automatically translated into this Mach representation, nor that all loop/predicated scheduling is covered."
       }
     ]
   },
@@ -647,7 +647,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified.",
+    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified.",
     "cited_in": "sections/08-related.tex",
     "articleno": "129",
     "numpages": "29",
@@ -679,8 +679,8 @@
           "HTML, no physical page; abstract paragraphs 1-2, extracted lines 278-281"
         ],
         "read_scope": "Selected primary abstract: Complete official abstract plus authors/title/DOI linkage. Also read the author/lab CompCert fork page identifying this exact OOPSLA paper. Did not read the full 29-page article or Coq development.",
-        "support_basis": "The abstract describes faithful assembly behavior after successful CompCert compilation and presents a VLIW backend with explicit instruction parallelism and certified instruction scheduling, extending the previously sequential target-semantics setting. Directly supports the current broad attribution of certified VLIW scheduling and machine-level preservation, including the adjoining sentence. It does not supply P096's fault-ticket semantics, export optimum or a claim that P096 is mechanized.",
-        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified."
+        "support_basis": "The abstract describes faithful assembly behavior after successful CompCert compilation and presents a VLIW backend with explicit instruction parallelism and certified instruction scheduling, extending the previously sequential target-semantics setting. Directly supports the current broad attribution of certified VLIW scheduling and machine-level preservation, including the adjoining sentence. It does not supply ModuloSemantics's fault-ticket semantics, export optimum or a claim that ModuloSemantics is mechanized.",
+        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified."
       }
     ]
   },
@@ -700,7 +700,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified.",
+    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified.",
     "cited_in": "sections/08-related.tex",
     "bibliographic_identity_check": {
       "doi_matches_current_bibliography": true,
@@ -730,7 +730,7 @@
         ],
         "read_scope": "Selected primary abstract: Complete official abstract and source identity. Full paper, supplementary arguments, implementation and machine-checked development not read or run.",
         "support_basis": "The optimizer moves instructions across branches in superblocks, is integrated into CompCert, and has a machine-checked C-to-assembly preservation proof. Untrusted transformation proposals are validated by certified checkers; the main check uses symbolic execution and simulation modulo register liveness. This explicitly supports both superblock scheduling and the adjoining machine-level preservation statement. Broad background only; no absence or novelty inference.",
-        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified."
+        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified."
       }
     ]
   },
@@ -793,7 +793,7 @@
           "8.1 trusted implementation components;8.2 unit-test methodology/examples"
         ],
         "read_scope": "Selected original passages: 2 immediate/deferred UB, poison, undef and freeze examples; 3 Figure2-3 state/operational definitions, 3.1-3.4 encoding and fully-undef input underapproximation; 5.1-5.3 Figure4 state/value refinement, quantified nondeterminism and SMT query obligations; 6 function-call modeling conditions; 7 loop unrolling, sink-block exclusion and missed-long-execution boundary; 8.1 trusted implementation components;8.2 unit-test methodology/examples",
-        "support_basis": "Refinement checks allow the target to remove nondeterminism and improve definedness but not introduce UB on a source-defined execution; Figure4 makes source UB permissive rather than a required labelled fault. Section7 excludes sink-reaching unrolled paths and may miss failures needing more iterations. This supports P096's bounded-validator attribution and its explicit distinction from preserving a defined fault and preceding trace.",
+        "support_basis": "Refinement checks allow the target to remove nondeterminism and improve definedness but not introduce UB on a source-defined execution; Figure4 makes source UB permissive rather than a required labelled fault. Section7 excludes sink-reaching unrolled paths and may miss failures needing more iterations. This supports ModuloSemantics's bounded-validator attribution and its explicit distinction from preserving a defined fault and preceding trace.",
         "limits": "Detailed memory model on pp.5-6, complete later evaluation and all formal encoding dependencies unread. No unbounded validation, mechanically verified checker or complete LLVM feature coverage claimed;"
       }
     ]
@@ -996,7 +996,7 @@
     "entire_fulltext_read_claim": true,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. The constrained retiming domain respects iteration boundaries and postdominance conditions. The exact LP and implementation are not certified here; no quantitative result or hardware cost is transferred to P096.",
+    "limitations": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. The constrained retiming domain respects iteration boundaries and postdominance conditions. The exact LP and implementation are not certified here; no quantitative result or hardware cost is transferred to ModuloSemantics.",
     "cited_in": "sections/08-related.tex",
     "publisher": "IEEE Press",
     "locator_verification": "Publisher BibTeX export supplied by the user on 2026-10-16; authors, title, publication, DOI and article/page locators compared with the current entry.",
@@ -1028,7 +1028,7 @@
         ],
         "read_scope": "Complete supplied original: all 7 physical pages; all scientific figures and tables inspected.",
         "support_basis": "III-A simplifies reversible-operation rollback; III-B eliminates rollback under speculative-gamma postdominance; III-C/D relocate recovery state subject to iteration-boundary restrictions and bit-width-weighted retiming. This is storage placement/representation, not arbitrary operator-width optimization.",
-        "limits": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. The constrained retiming domain respects iteration boundaries and postdominance conditions. The exact LP and implementation are not certified here; no quantitative result or hardware cost is transferred to P096."
+        "limits": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. The constrained retiming domain respects iteration boundaries and postdominance conditions. The exact LP and implementation are not certified here; no quantitative result or hardware cost is transferred to ModuloSemantics."
       }
     ]
   },
@@ -1047,7 +1047,7 @@
     "entire_fulltext_read_claim": true,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. The DAG scheduler is heuristic; II/CPI and physical resource counts are not separate tagged forwarding-bank cells or P096 measurements.",
+    "limitations": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. The DAG scheduler is heuristic; II/CPI and physical resource counts are not separate tagged forwarding-bank cells or ModuloSemantics measurements.",
     "cited_in": "sections/08-related.tex",
     "pages": "1--7",
     "publisher": "IEEE",
@@ -1080,7 +1080,7 @@
         ],
         "read_scope": "Complete supplied original: all 7 physical pages; all scientific figures and tables inspected.",
         "support_basis": "III-C separately schedules a speculative cyclic core and sliced recovery DAG, merges their schedules and enables resource sharing through mutual exclusion. III-D/E extend the mechanism to resource constraints and speculative array partitioning. Recovery work can stall the pipeline.",
-        "limits": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. The DAG scheduler is heuristic; II/CPI and physical resource counts are not separate tagged forwarding-bank cells or P096 measurements."
+        "limits": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. The DAG scheduler is heuristic; II/CPI and physical resource counts are not separate tagged forwarding-bank cells or ModuloSemantics measurements."
       }
     ]
   },
@@ -1100,7 +1100,7 @@
     "entire_fulltext_read_claim": true,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. Stores remain gated and eager motion stops at unsupported LSQ loads. Local equivalences do not supply a complete compiler or P096 defined-fault guarantee.",
+    "limitations": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. Stores remain gated and eager motion stops at unsupported LSQ loads. Local equivalences do not supply a complete compiler or ModuloSemantics defined-fault guarantee.",
     "cited_in": "sections/08-related.tex",
     "publisher": "Association for Computing Machinery",
     "locator_verification": "Publisher BibTeX export supplied by the user on 2026-10-16; authors, title, publication, DOI and article/page locators compared with the current entry.",
@@ -1133,7 +1133,7 @@
         ],
         "read_scope": "Complete supplied original: all 11 physical pages; all scientific figures and tables inspected.",
         "support_basis": "Context-dependent local rewrites verified with ElasticMiter move suppressors to enable eager paths and repeated loop re-entry without duplicating computational units. Pattern matches, token-count contexts and side-effect restrictions are premises of the guarantee.",
-        "limits": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. Stores remain gated and eager motion stops at unsupported LSQ loads. Local equivalences do not supply a complete compiler or P096 defined-fault guarantee."
+        "limits": "Complete reading, not independent certification of proofs, solver encoding, compiler or hardware results. Stores remain gated and eager motion stops at unsupported LSQ loads. Local equivalences do not supply a complete compiler or ModuloSemantics defined-fault guarantee."
       }
     ]
   },
@@ -1240,7 +1240,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Complete rewrite catalog pp.9-10, full model/RTL relation, external model-checker correctness and later evaluation not independently verified. Current P096 timing/storage optimum is not inherited.",
+    "limitations": "Complete rewrite catalog pp.9-10, full model/RTL relation, external model-checker correctness and later evaluation not independently verified. Current ModuloSemantics timing/storage optimum is not inherited.",
     "cited_in": "sections/01-introduction.tex; sections/08-related.tex",
     "bibliographic_identity_check": {
       "doi_matches_current_bibliography": true,
@@ -1280,7 +1280,7 @@
         ],
         "read_scope": "Selected original passages: 3 Definitions 1-3 token-sequence and latency-insensitive equivalence; 4.1-4.3 miter, temporal checks (1)-(4), finite sequence-length procedure; 5 contexts SC/SV/AT; 6 introduction to rewrite system; 7.1-7.2 nuXmv/model abstraction and verification result table",
         "support_basis": "ElasticMiter constructs an equivalence-checking fabric for dataflow rewrites, comparing consumed/produced token sequences rather than cycle-exact timing.",
-        "limits": "Complete rewrite catalog pp.9-10, full model/RTL relation, external model-checker correctness and later evaluation not independently verified. Current P096 timing/storage optimum is not inherited."
+        "limits": "Complete rewrite catalog pp.9-10, full model/RTL relation, external model-checker correctness and later evaluation not independently verified. Current ModuloSemantics timing/storage optimum is not inherited."
       },
       {
         "file": "sections/08-related.tex",
@@ -1300,7 +1300,7 @@
         ],
         "read_scope": "Selected original passages: 3 Definitions 1-3 token-sequence and latency-insensitive equivalence; 4.1-4.3 miter, temporal checks (1)-(4), finite sequence-length procedure; 5 contexts SC/SV/AT; 6 introduction to rewrite system; 7.1-7.2 nuXmv/model abstraction and verification result table",
         "support_basis": "The paper defines/checks latency-insensitive equivalence and reports verified localized steering rewrites. Context restrictions on token counts, values and timing matter; implementation abstracts data to one bit. This supports 'checks', not unrestricted equivalence or proof-assistant verification of an entire HLS flow.",
-        "limits": "Complete rewrite catalog pp.9-10, full model/RTL relation, external model-checker correctness and later evaluation not independently verified. Current P096 timing/storage optimum is not inherited."
+        "limits": "Complete rewrite catalog pp.9-10, full model/RTL relation, external model-checker correctness and later evaluation not independently verified. Current ModuloSemantics timing/storage optimum is not inherited."
       }
     ]
   },
@@ -1401,7 +1401,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Full mechanized proof and separately linked appendix not read; complete linking proof, all pipeline stages and hardware measurements not certified. No P096 relative optimum follows from the preservation theorems.",
+    "limitations": "Full mechanized proof and separately linked appendix not read; complete linking proof, all pipeline stages and hardware measurements not certified. No ModuloSemantics relative optimum follows from the preservation theorems.",
     "cited_in": "sections/01-introduction.tex; sections/08-related.tex",
     "bibliographic_identity_check": {
       "doi_matches_current_bibliography": true,
@@ -1443,7 +1443,7 @@
         ],
         "read_scope": "Selected original passages: 4.1-4.3 regions, fences, permissions, frontend assumptions; 5.1 Definition 5.1 IO-restricted weak simulation; 5.2 Theorem 5.2 and main simulation argument; 5.3 Lemmas 5.3-5.4 and Theorem 5.5; 5.4 Definition 5.6, Theorems 5.7/5.9; 5.5 unverified operator-selection rewrites",
         "support_basis": "The core compiler proves forward simulation and, with a terminating guarded source trace, schedule-independent results/final memory. Capability checking/lowering and their translation validator are currently unverified assumptions, not a verified whole frontend.",
-        "limits": "Full mechanized proof and separately linked appendix not read; complete linking proof, all pipeline stages and hardware measurements not certified. No P096 relative optimum follows from the preservation theorems."
+        "limits": "Full mechanized proof and separately linked appendix not read; complete linking proof, all pipeline stages and hardware measurements not certified. No ModuloSemantics relative optimum follows from the preservation theorems."
       },
       {
         "file": "sections/08-related.tex",
@@ -1464,7 +1464,7 @@
         ],
         "read_scope": "Selected original passages: 4.1-4.3 regions, fences, permissions, frontend assumptions; 5.1 Definition 5.1 IO-restricted weak simulation; 5.2 Theorem 5.2 and main simulation argument; 5.3 Lemmas 5.3-5.4 and Theorem 5.5; 5.4 Definition 5.6, Theorems 5.7/5.9; 5.5 unverified operator-selection rewrites",
         "support_basis": "Unique/shared array regions and fences expose memory dependencies, then explicit permission dependencies enable determinacy. Static call-site/no-mutual-recursion restrictions and affine/no-shadowing well-formedness apply. Section 5.5's 54 hardware-selection/optimization rewrites are unverified; no full-C-to-hardware guarantee is credited.",
-        "limits": "Full mechanized proof and separately linked appendix not read; complete linking proof, all pipeline stages and hardware measurements not certified. No P096 relative optimum follows from the preservation theorems."
+        "limits": "Full mechanized proof and separately linked appendix not read; complete linking proof, all pipeline stages and hardware measurements not certified. No ModuloSemantics relative optimum follows from the preservation theorems."
       }
     ]
   },
@@ -1548,7 +1548,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified.",
+    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified.",
     "cited_in": "sections/08-related.tex",
     "bibliographic_identity_check": {
       "doi_matches_current_bibliography": true,
@@ -1578,7 +1578,7 @@
         ],
         "read_scope": "Selected primary abstract: Complete institutional abstract, title and authors; no full 632-658 article or theorem proofs read. IBM's displayed day is not used to revise the cited volume/year.",
         "support_basis": "The work schedules basic-block instructions on RISC pipelines, including instructions required to complete by specified times. It distinguishes special pipeline classes, heuristic longer-pipeline use and harder general cases. Supports the deadline/time-critical scheduling dimension of the joint citation. Leung's companion primary abstract explicitly supplies precedence, releases, deadlines and latency. The current sentence does not assert a universal optimum or polynomial algorithm for arbitrary machines; none is imported.",
-        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified."
+        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified."
       }
     ]
   },
@@ -1600,7 +1600,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified.",
+    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified.",
     "cited_in": "sections/08-related.tex",
     "bibliographic_identity_check": {
       "doi_matches_current_bibliography": true,
@@ -1629,8 +1629,8 @@
           "HTML, no physical page; extracted lines 0-7"
         ],
         "read_scope": "Selected primary abstract: Complete author-hosted abstract, including the opening constraints, enumerated instance classes and backward-scheduling qualification. Did not read the linked PostScript or full article pp.73-103.",
-        "support_basis": "The model explicitly includes multiple pipelines, precedence, release times, deadlines and latencies. Feasible/optimal scheduling results apply to enumerated classes, with backward scheduling as the method. Direct entailment for placement subject to precedence/timing in C11. Preserve its broad classification; do not generalize the algorithm to arbitrary pipelines or infer P096's resource monotonicity from it.",
-        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified."
+        "support_basis": "The model explicitly includes multiple pipelines, precedence, release times, deadlines and latencies. Feasible/optimal scheduling results apply to enumerated classes, with backward scheduling as the method. Direct entailment for placement subject to precedence/timing in C11. Preserve its broad classification; do not generalize the algorithm to arbitrary pipelines or infer ModuloSemantics's resource monotonicity from it.",
+        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified."
       }
     ]
   },
@@ -1650,7 +1650,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified.",
+    "limitations": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified.",
     "cited_in": "sections/06-codesign.tex; sections/08-related.tex",
     "bibliographic_identity_check": {
       "doi_matches_current_bibliography": true,
@@ -1679,8 +1679,8 @@
           "Physical PDF pp.1-3 / printed pp.121-123; key decision-variable and issue/dependence passage on physical p.3 / printed p.123"
         ],
         "read_scope": "Selected original formulation: Abstract and complete Section 2.1 formulation passage: schedule-length search, one 0-1 variable per instruction/cycle, exactly-one-cycle requirement, issue limits and dependence-latency inequalities. Later graph transformations, solver enhancements, evaluation and proofs not audited. No visual-layout conclusion is drawn.",
-        "support_basis": "An instruction/cycle binary variable chooses whether instruction i executes at clock j. Constraints assign each instruction one cycle and enforce issue capacity and latency-weighted dependence. Feasibility at decreasing schedule lengths finds the shortest schedule within that model. This establishes that issue times/placements are actual optimization variables, precisely the contrast used in both P096 sentences. It is not merely title/metadata support. No assumption that this local basic-block model is identical to P096's periodic interface problem.",
-        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified."
+        "support_basis": "An instruction/cycle binary variable chooses whether instruction i executes at clock j. Constraints assign each instruction one cycle and enforce issue capacity and latency-weighted dependence. Feasibility at decreasing schedule lengths finds the shortest schedule within that model. This establishes that issue times/placements are actual optimization variables, precisely the contrast used in both ModuloSemantics sentences. It is not merely title/metadata support. No assumption that this local basic-block model is identical to ModuloSemantics's periodic interface problem.",
+        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified."
       },
       {
         "file": "sections/08-related.tex",
@@ -1694,8 +1694,8 @@
           "Physical PDF pp.1-3 / printed pp.121-123; key decision-variable and issue/dependence passage on physical p.3 / printed p.123"
         ],
         "read_scope": "Selected original formulation: Abstract and complete Section 2.1 formulation passage: schedule-length search, one 0-1 variable per instruction/cycle, exactly-one-cycle requirement, issue limits and dependence-latency inequalities. Later graph transformations, solver enhancements, evaluation and proofs not audited. No visual-layout conclusion is drawn.",
-        "support_basis": "An instruction/cycle binary variable chooses whether instruction i executes at clock j. Constraints assign each instruction one cycle and enforce issue capacity and latency-weighted dependence. Feasibility at decreasing schedule lengths finds the shortest schedule within that model. This establishes that issue times/placements are actual optimization variables, precisely the contrast used in both P096 sentences. It is not merely title/metadata support. No assumption that this local basic-block model is identical to P096's periodic interface problem.",
-        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and P096 guarantees are not certified."
+        "support_basis": "An instruction/cycle binary variable chooses whether instruction i executes at clock j. Constraints assign each instruction one cycle and enforce issue capacity and latency-weighted dependence. Feasibility at decreasing schedule lengths finds the shortest schedule within that model. This establishes that issue times/placements are actual optimization variables, precisely the contrast used in both ModuloSemantics sentences. It is not merely title/metadata support. No assumption that this local basic-block model is identical to ModuloSemantics's periodic interface problem.",
+        "limits": "Only the named primary abstract/formulation is credited. Full paper, original proof validity, implementation and ModuloSemantics guarantees are not certified."
       }
     ]
   },
@@ -1743,7 +1743,7 @@
           "§III.B and §IV.A–C, PDF pp.3–4, Table III and Figure 3"
         ],
         "read_scope": "Selected original passages: integer/rational minimum-II distinction, M/S sample-insertion definition, scheduling problem and ILP explanation.",
-        "support_basis": "Rational II is M cycles per S samples, with distinct per-sample operation times and resource/dependence constraints. This changes the schedule search space relative to integer uniform-period scheduling and supports both current comparisons. P096's finite integer-period cutoff is not transferred to rational schedules.",
+        "support_basis": "Rational II is M cycles per S samples, with distinct per-sample operation times and resource/dependence constraints. This changes the schedule search space relative to integer uniform-period scheduling and supports both current comparisons. ModuloSemantics's finite integer-period cutoff is not transferred to rational schedules.",
         "limits": "Full solving algorithms, global optimality analyses and experiments not certified."
       },
       {
@@ -1757,7 +1757,7 @@
           "§III.B and §IV.A–C, PDF pp.3–4, Table III and Figure 3"
         ],
         "read_scope": "Selected original passages: integer/rational minimum-II distinction, M/S sample-insertion definition, scheduling problem and ILP explanation.",
-        "support_basis": "Rational II is M cycles per S samples, with distinct per-sample operation times and resource/dependence constraints. This changes the schedule search space relative to integer uniform-period scheduling and supports both current comparisons. P096's finite integer-period cutoff is not transferred to rational schedules.",
+        "support_basis": "Rational II is M cycles per S samples, with distinct per-sample operation times and resource/dependence constraints. This changes the schedule search space relative to integer uniform-period scheduling and supports both current comparisons. ModuloSemantics's finite integer-period cutoff is not transferred to rational schedules.",
         "limits": "Full solving algorithms, global optimality analyses and experiments not certified."
       }
     ]
@@ -1816,7 +1816,7 @@
           "Original abstract, fourth sentence: alternative solution strategies"
         ],
         "read_scope": "Selected primary abstract: complete ACM-deposited original abstract in the companion DOI Crossref response; no original article body read.",
-        "support_basis": "The abstract establishes multiple allocation strategies and with/without-specialized-hardware regimes. The two jointly cited spill papers' read bodies supply residence/transfer choices. P096 fixes separate uniform source banks and placements. This is a problem-domain comparison, not a lower bound, algorithmic optimum or empirical advantage attributed to Rau.",
+        "support_basis": "The abstract establishes multiple allocation strategies and with/without-specialized-hardware regimes. The two jointly cited spill papers' read bodies supply residence/transfer choices. ModuloSemantics fixes separate uniform source banks and placements. This is a problem-domain comparison, not a lower bound, algorithmic optimum or empirical advantage attributed to Rau.",
         "limits": "No detailed register-allocation algorithm, MAXLIVE theorem, optimality, experiment count/result or absence claim is adopted. Full-body access remains unavailable; it is not necessary for these restricted abstract-supported scope statements.",
         "coordinated_support_keys": [
           "nagarakatte-spill",
@@ -1886,7 +1886,7 @@
           "§§2.2–2.3 Register Allocation and Decreasing Register Requirements"
         ],
         "read_scope": "Selected original passages: variable/use spill-choice explanation, rotating-register assumption and trade-off between spill memory traffic and increased II, plus method overview.",
-        "support_basis": "The source selects spill variables/uses, inserts load/store code, and considers reducing execution rate when insufficient registers remain. Its model uses rotating registers and overlapping live instances. This supports both current broader-allocation and insufficient-register/spill-code classifications, not a global optimum or P096 hardware cost.",
+        "support_basis": "The source selects spill variables/uses, inserts load/store code, and considers reducing execution rate when insufficient registers remain. Its model uses rotating registers and overlapping live instances. This supports both current broader-allocation and insufficient-register/spill-code classifications, not a global optimum or ModuloSemantics hardware cost.",
         "limits": "Detailed later heuristics and empirical comparisons not independently audited or run."
       },
       {
@@ -1901,7 +1901,7 @@
           "§§2.2–2.3 Register Allocation and Decreasing Register Requirements"
         ],
         "read_scope": "Selected original passages: variable/use spill-choice explanation, rotating-register assumption and trade-off between spill memory traffic and increased II, plus method overview.",
-        "support_basis": "The source selects spill variables/uses, inserts load/store code, and considers reducing execution rate when insufficient registers remain. Its model uses rotating registers and overlapping live instances. This supports both current broader-allocation and insufficient-register/spill-code classifications, not a global optimum or P096 hardware cost.",
+        "support_basis": "The source selects spill variables/uses, inserts load/store code, and considers reducing execution rate when insufficient registers remain. Its model uses rotating registers and overlapping live instances. This supports both current broader-allocation and insufficient-register/spill-code classifications, not a global optimum or ModuloSemantics hardware cost.",
         "limits": "Detailed later heuristics and empirical comparisons not independently audited or run."
       }
     ]
@@ -1953,7 +1953,7 @@
           "§3/§3.1 ILP formulation and liveness/store/load decision variables, printed pp.129–131"
         ],
         "read_scope": "Selected original passages: spill-candidate/timing motivation, model assumptions and decision-variable/constraint opening.",
-        "support_basis": "Given a periodic schedule after modulo-variable expansion, the load-store/no-rotating-register model chooses register residences and spill load/store times subject to functional-resource limits. This supports both broader allocation choices and insufficient-register spill scheduling comparisons; it is not a proof of P096's bank formula.",
+        "support_basis": "Given a periodic schedule after modulo-variable expansion, the load-store/no-rotating-register model chooses register residences and spill load/store times subject to functional-resource limits. This supports both broader allocation choices and insufficient-register spill scheduling comparisons; it is not a proof of ModuloSemantics's bank formula.",
         "limits": "Remaining constraints, optimality/implementation arguments and measurements not certified or run."
       },
       {
@@ -1968,7 +1968,7 @@
           "§3/§3.1 ILP formulation and liveness/store/load decision variables, printed pp.129–131"
         ],
         "read_scope": "Selected original passages: spill-candidate/timing motivation, model assumptions and decision-variable/constraint opening.",
-        "support_basis": "Given a periodic schedule after modulo-variable expansion, the load-store/no-rotating-register model chooses register residences and spill load/store times subject to functional-resource limits. This supports both broader allocation choices and insufficient-register spill scheduling comparisons; it is not a proof of P096's bank formula.",
+        "support_basis": "Given a periodic schedule after modulo-variable expansion, the load-store/no-rotating-register model chooses register residences and spill load/store times subject to functional-resource limits. This supports both broader allocation choices and insufficient-register spill scheduling comparisons; it is not a proof of ModuloSemantics's bank formula.",
         "limits": "Remaining constraints, optimality/implementation arguments and measurements not certified or run."
       }
     ]
@@ -2021,7 +2021,7 @@
           "§3 optimization-model opening and §3.1 CFDFC definition, PDF p.5"
         ],
         "read_scope": "Selected original passages: critical-path/backpressure explanation, marked-graph versus choice-containing network distinction and optimization-goal paragraphs.",
-        "support_basis": "Buffer placement/sizes are chosen to satisfy cycle period and maximize throughput of selected choice-free subgraphs; capacity/backpressure changes network behavior. This supports both timing/throughput co-optimization and richer network-problem comparisons. It does not substantiate hardware costs of P096's separate banks.",
+        "support_basis": "Buffer placement/sizes are chosen to satisfy cycle period and maximize throughput of selected choice-free subgraphs; capacity/backpressure changes network behavior. This supports both timing/throughput co-optimization and richer network-problem comparisons. It does not substantiate hardware costs of ModuloSemantics's separate banks.",
         "limits": "Complete MILP constraints, scalability and hardware measurements not certified."
       },
       {
@@ -2036,7 +2036,7 @@
           "§3 optimization-model opening and §3.1 CFDFC definition, PDF p.5"
         ],
         "read_scope": "Selected original passages: critical-path/backpressure explanation, marked-graph versus choice-containing network distinction and optimization-goal paragraphs.",
-        "support_basis": "Buffer placement/sizes are chosen to satisfy cycle period and maximize throughput of selected choice-free subgraphs; capacity/backpressure changes network behavior. This supports both timing/throughput co-optimization and richer network-problem comparisons. It does not substantiate hardware costs of P096's separate banks.",
+        "support_basis": "Buffer placement/sizes are chosen to satisfy cycle period and maximize throughput of selected choice-free subgraphs; capacity/backpressure changes network behavior. This supports both timing/throughput co-optimization and richer network-problem comparisons. It does not substantiate hardware costs of ModuloSemantics's separate banks.",
         "limits": "Complete MILP constraints, scalability and hardware measurements not certified."
       }
     ]
@@ -2084,7 +2084,7 @@
           "§IV.A–C, PDF pp.2–3, Equations (1)–(8)"
         ],
         "read_scope": "Selected original passages: dependence/latency formulation and contrast between independent worst-case approximation and correlated constraints.",
-        "support_basis": "The scheduling inequality jointly contains iteration distance and latency; the proposed formulation retains correlations discarded by independent extrema. This supports the current motivation comparison, without identifying P096's fixed-latency interface with that compiler model.",
+        "support_basis": "The scheduling inequality jointly contains iteration distance and latency; the proposed formulation retains correlations discarded by independent extrema. This supports the current motivation comparison, without identifying ModuloSemantics's fixed-latency interface with that compiler model.",
         "limits": "Full verifier correctness and performance experiments not audited or run."
       }
     ]
@@ -2093,7 +2093,7 @@
     "entire_fulltext_read_claim": true,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Complete reading is not independent proof, compiler or hardware-result certification. Source throughput approximations, resource retuning and heuristic multiple-speculation limits remain source-specific; none is a P096 hardware measurement.",
+    "limitations": "Complete reading is not independent proof, compiler or hardware-result certification. Source throughput approximations, resource retuning and heuristic multiple-speculation limits remain source-specific; none is a ModuloSemantics hardware measurement.",
     "cited_in": "sections/08-related.tex",
     "key": "she2025",
     "kind": "article",
@@ -2149,7 +2149,7 @@
         ],
         "read_scope": "Complete supplied original: all 33 physical pages (article 17:1-17:33); all numbered figures and tables inspected.",
         "support_basis": "ASLP tunes recurrence-path estimates through repeated transformation/backend synthesis (5.1), analyzes buffering overhead from overestimation (4.2), and connects separately synthesized components with FIFOs (5.4). Speculative within-component recurrences can roll back/replay; block_out writes inter-component FIFO data only after commitment and respects full/empty backpressure.",
-        "limits": "Complete reading is not independent proof, compiler or hardware-result certification. Source throughput approximations, resource retuning and heuristic multiple-speculation limits remain source-specific; none is a P096 hardware measurement."
+        "limits": "Complete reading is not independent proof, compiler or hardware-result certification. Source throughput approximations, resource retuning and heuristic multiple-speculation limits remain source-specific; none is a ModuloSemantics hardware measurement."
       }
     ]
   },
@@ -2219,7 +2219,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Remaining related-work discussion and references unread. No arbitrary register-allocation exactness, spill optimality or P096 inclusive equal-clock event rule imported.",
+    "limitations": "Remaining related-work discussion and references unread. No arbitrary register-allocation exactness, spill optimality or ModuloSemantics inclusive equal-clock event rule imported.",
     "cited_in": "sections/08-related.tex",
     "key": "huff1993",
     "kind": "inproceedings",
@@ -2271,8 +2271,8 @@
           "6-7 compile-time and schedule comparison, Tables 2-4; 8 opening"
         ],
         "read_scope": "Selected original passages: 2 hypothetical VLIW, predicates and rotating registers; 3 ResMII/RecMII and LiveVector/MaxLive/MinAvg lower bounds; 4 slack bounds, operation placement and limited backtracking; 5.1 MinLT construction and 5.2 bidirectional issue-cycle heuristic; 6-7 compile-time and schedule comparison, Tables 2-4; 8 opening",
-        "support_basis": "Section 5 chooses early or late issue positions using stretchable input/output lifetimes, with limited backtracking. Sections 3 and 7 evaluate initiation intervals against MII and lifetime pressure against MinAvg. The paper assumes unlimited registers to measure pressure and approximates allocated register demand by MaxLive; it does not prove general register-allocation optimality. The current sentence and following distinction from P096's fixed-placement interface optimization are accurate.",
-        "limits": "Remaining related-work discussion and references unread. No arbitrary register-allocation exactness, spill optimality or P096 inclusive equal-clock event rule imported."
+        "support_basis": "Section 5 chooses early or late issue positions using stretchable input/output lifetimes, with limited backtracking. Sections 3 and 7 evaluate initiation intervals against MII and lifetime pressure against MinAvg. The paper assumes unlimited registers to measure pressure and approximates allocated register demand by MaxLive; it does not prove general register-allocation optimality. The current sentence and following distinction from ModuloSemantics's fixed-placement interface optimization are accurate.",
+        "limits": "Remaining related-work discussion and references unread. No arbitrary register-allocation exactness, spill optimality or ModuloSemantics inclusive equal-clock event rule imported."
       }
     ]
   },
@@ -2445,7 +2445,7 @@
           "2.4 requirements R1-R4; Proposition 1 implementation soundness and supplied proof"
         ],
         "read_scope": "Selected original passages: Introduction: implementation, stuttering and limits of unaugmented refinement maps; 2.3 state-machine specifications and supplementary properties; Lemma 1 supplied proof; 2.4 requirements R1-R4; Proposition 1 implementation soundness and supplied proof",
-        "support_basis": "A mapping must preserve observable state, initial states and steps up to stuttering, and meet the supplementary-property condition. Proposition 1 constructs the corresponding allowed higher-level behavior from a lower-level behavior. This establishes the preservation-tool role, not automatic discovery of a relation for P096. The manuscript's following clause accurately keeps its particular interface invariant separate. The report also explains that a state map without auxiliary variables need not exist for every correct implementation.",
+        "support_basis": "A mapping must preserve observable state, initial states and steps up to stuttering, and meet the supplementary-property condition. Proposition 1 constructs the corresponding allowed higher-level behavior from a lower-level behavior. This establishes the preservation-tool role, not automatic discovery of a relation for ModuloSemantics. The manuscript's following clause accurately keeps its particular interface invariant separate. The report also explains that a state map without auxiliary variables need not exist for every correct implementation.",
         "limits": "The general completeness theorem and later history/prophecy-variable construction proofs are unread. No claim of automatic compiler-IR translation, universal existence of an unaugmented map or machine-checked assurance follows from this reading. Extraction has old-font artifacts; R1-R4 and Proposition 1 were visually checked."
       }
     ]
@@ -2497,7 +2497,7 @@
           "Optimistic-coloring explanation and §4/§4.1, printed pp.436–437 / PDF pp.9–10"
         ],
         "read_scope": "Selected original passages: late-spill/color-assignment explanation and recomputation-versus-memory rematerialization definition/examples.",
-        "support_basis": "Optimistic coloring may color high-degree nodes after neighbor colors are known; rematerialization recomputes cheaply available values instead of storing/reloading them. These are allocation choices excluded by P096's separate tagged banks, as the current sentence states.",
+        "support_basis": "Optimistic coloring may color high-degree nodes after neighbor colors are known; rematerialization recomputes cheaply available values instead of storing/reloading them. These are allocation choices excluded by ModuloSemantics's separate tagged banks, as the current sentence states.",
         "limits": "Full implementation and measurement sections not certified."
       }
     ]
@@ -2557,7 +2557,7 @@
           "4 Table1 operation overview plus Update4 correction; not algorithm complexity certification"
         ],
         "read_scope": "Selected original passages: dependency-set notation preceding section2; 2 Definitions1-5 ordered acyclic graph and reduction;Theorem1 complete supplied induction/minimality proof; 3.1-3.3 shared subgraphs, ordering dependence and inherent exponential example boundary; 4 Table1 operation overview plus Update4 correction; not algorithm complexity certification",
-        "support_basis": "Definitions1-5 represent a Boolean function by an ordered decision DAG; Theorem1 proves canonical reduced representation for the fixed variable order. Shared subgraphs and omitted irrelevant variables explain how this differs from enumerating table rows. Sections3.2-3.3 also show order-sensitive and worst-case exponential size. P096 claims an alternative only and expressly disclaims scaling/performance evidence, so no universal compression or new synthesis result is attributed to Bryant.",
+        "support_basis": "Definitions1-5 represent a Boolean function by an ordered decision DAG; Theorem1 proves canonical reduced representation for the fixed variable order. Shared subgraphs and omitted irrelevant variables explain how this differs from enumerating table rows. Sections3.2-3.3 also show order-sensitive and worst-case exponential size. ModuloSemantics claims an alternative only and expressly disclaims scaling/performance evidence, so no universal compression or new synthesis result is attributed to Bryant.",
         "limits": "Most operation implementations and appendix multiplication lower-bound proof unread. Table1 is only an overview here, with Update4 noted rather than silently treated as an uncorrected1986 complexity theorem."
       }
     ]
@@ -2607,7 +2607,7 @@
           "§2 Register Allocation as a Graph Coloring Problem and §3 Concept of Interference, printed pp.48–49 / PDF pp.2–3"
         ],
         "read_scope": "Selected original passages: graph/node/color/register correspondence and live-name/interference definitions.",
-        "support_basis": "Computed quantities are represented by nodes, interference by edges, and machine registers by colors. The detailed definition refines simultaneous liveness to liveness at the other's definition. This supports only the current general interference-model attribution, not P096's exact separate-bank optimum.",
+        "support_basis": "Computed quantities are represented by nodes, interference by edges, and machine registers by colors. The detailed definition refines simultaneous liveness to liveness at the other's definition. This supports only the current general interference-model attribution, not ModuloSemantics's exact separate-bank optimum.",
         "limits": "Graph-construction/coloring implementation and empirical claims not audited."
       }
     ]
@@ -2669,7 +2669,7 @@
           "2.3 proof-generation design versus non-proof mode;2.4 library interface"
         ],
         "read_scope": "Selected original passages: 1 DPLL(T) architecture; 2 SMT/Prop/Theory engines and push/pop assertions; 2.1 expression sharing and representation; 2.2 theory coverage including bitvectors; 2.3 proof-generation design versus non-proof mode;2.4 library interface",
-        "support_basis": "An asserted formula is handled by a propositional solver with delegated theory procedures, and the public engine supports validity/model queries. This is a logical alternative representation/decision mechanism for a finite Boolean predicate; it does not require that P096 has implemented that encoding. The next current sentence explicitly says neither backend is used and no scaling/performance comparison follows from table evidence. No CVC4 speedup, proof-producing configuration or latest-tool behavior is imported.",
+        "support_basis": "An asserted formula is handled by a propositional solver with delegated theory procedures, and the public engine supports validity/model queries. This is a logical alternative representation/decision mechanism for a finite Boolean predicate; it does not require that ModuloSemantics has implemented that encoding. The next current sentence explicitly says neither backend is used and no scaling/performance comparison follows from table evidence. No CVC4 speedup, proof-producing configuration or latest-tool behavior is imported.",
         "limits": "Later CVC4 applications/evaluation and full implementation/decision-procedure correctness proofs unread. This tool article explains architecture rather than furnishing a complete formal proof of all procedures."
       }
     ]
@@ -2719,7 +2719,7 @@
           "§2 worked interface example, printed p.111 / PDF p.3"
         ],
         "read_scope": "Selected original passages: environment-assumption, output-guarantee, legal-input and composition/refinement explanations and worked example.",
-        "support_basis": "The automata restrict permissible environmental inputs and guarantee component behavior under those assumptions; compatibility asks for a suitable environment. This supports the assumptions/guarantees attribution, without deriving P096's deadline/storage result.",
+        "support_basis": "The automata restrict permissible environmental inputs and guarantee component behavior under those assumptions; compatibility asks for a suitable environment. This supports the assumptions/guarantees attribution, without deriving ModuloSemantics's deadline/storage result.",
         "limits": "Remaining formal definitions and composition/simulation proofs not certified."
       }
     ]
@@ -2773,7 +2773,7 @@
           "2.4.1 printed27: strategy maps a finite play prefix to its next vertex; winning requires every conforming play to win"
         ],
         "read_scope": "Selected chapter passages: physical pp. 1-5, 2.1-2.4.1; strategy/winning-strategy definitions and Example 2.2.",
-        "support_basis": "A strategy is explicitly a function on previous play prefixes, not future positions; a winning strategy quantifies over all plays consistent with it. This supports the causal-choice context, not equivalence with P096's one-deadline selector or a transferred complexity theorem.",
+        "support_basis": "A strategy is explicitly a function on previous play prefixes, not future positions; a winning strategy quantifies over all plays consistent with it. This supports the causal-choice context, not equivalence with ModuloSemantics's one-deadline selector or a transferred complexity theorem.",
         "limits": "Remainder of chapter and rest of volume; no independent proof or novelty certification"
       }
     ]
@@ -2837,7 +2837,7 @@
           "3.4 Theorem 3.22 forward/backward completeness statement and supplied intermediate-automaton construction; 4 opening only"
         ],
         "read_scope": "Selected original passages: 2.2-2.3 traces, internal actions, finite invisible nondeterminism and forests; 3.1 refinement definition and Theorem 3.4 supplied trace-inclusion proof; 3.2 forward simulation definition and Theorem 3.10 proof by reference to 3.4; 3.3 backward simulation totality/image-finiteness; Theorem 3.17 supplied finite/infinite trace construction; 3.18-3.20 partial completeness/reachability results; 3.4 Theorem 3.22 forward/backward completeness statement and supplied intermediate-automaton construction; 4 opening only",
-        "support_basis": "The definitions relate initial states and match a transition by an execution fragment with the same external trace. Refinement/forward simulation soundness therefore supplies a trace-preservation proof technique. For backward simulation the paper distinguishes finite-trace inclusion from general trace inclusion requiring image-finiteness; these are not unrestricted arbitrary relations. The current generic tools attribution plus the explicit need for P096's own relation is consistent with these results.",
+        "support_basis": "The definitions relate initial states and match a transition by an execution fragment with the same external trace. Refinement/forward simulation soundness therefore supplies a trace-preservation proof technique. For backward simulation the paper distinguishes finite-trace inclusion from general trace inclusion requiring image-finiteness; these are not unrestricted arbitrary relations. The current generic tools attribution plus the explicit need for ModuloSemantics's own relation is consistent with these results.",
         "limits": "Appendix A.1's supporting Konig-lemma proof, later hybrid-simulation development and all examples are unread. Complete infinite-trace completeness certification is not claimed; the current sentence needs the preservation-tool role only. Partially displayed physical p.3 is not credited as a complete read page."
       }
     ]
@@ -2857,7 +2857,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Specific policy adequacy and soundness proofs, full case studies and remaining pp.5-14 unread. This is not a mechanized assurance claim for P096.",
+    "limitations": "Specific policy adequacy and soundness proofs, full case studies and remaining pp.5-14 unread. This is not a mechanized assurance claim for ModuloSemantics.",
     "cited_in": "sections/08-related.tex",
     "pages": "106--119",
     "bibliographic_identity_check": {
@@ -2897,8 +2897,8 @@
           "3 opening concrete TIL safety policy"
         ],
         "read_scope": "Selected original passages: 1 untrusted producer/consumer; 2 Figure 1 and three stages: certification, validation, execution; consumer-defined safety rules and interface; validator implementation and safety-policy soundness as trusted boundary; 3 opening concrete TIL safety policy",
-        "support_basis": "The producer attaches a proof to code; the consumer supplies a prior formal safety policy and validates the proof. The body distinguishes proof generation from the simpler trusted validator and policy soundness. Current wording credits that architecture, not PCC's machine-code safety conclusion to P096's handwritten argument or Python checker.",
-        "limits": "Specific policy adequacy and soundness proofs, full case studies and remaining pp.5-14 unread. This is not a mechanized assurance claim for P096."
+        "support_basis": "The producer attaches a proof to code; the consumer supplies a prior formal safety policy and validates the proof. The body distinguishes proof generation from the simpler trusted validator and policy soundness. Current wording credits that architecture, not PCC's machine-code safety conclusion to ModuloSemantics's handwritten argument or Python checker.",
+        "limits": "Specific policy adequacy and soundness proofs, full case studies and remaining pp.5-14 unread. This is not a mechanized assurance claim for ModuloSemantics."
       }
     ]
   },
@@ -2945,7 +2945,7 @@
           "Introduction's open-system/strategy-tree and synchronous-scope paragraphs, printed pp.180–181"
         ],
         "read_scope": "Selected original passages: distinction between closed satisfiability and open reactive synthesis, adversarial input scenarios and history-dependent output strategy explanation.",
-        "support_basis": "The module must choose outputs against all environmental input histories; a strategy tree specifies an output for each history. The exposition restricts to synchronous programs. This supports the current general causal-choice context, without importing complexity bounds into P096's one-deadline finite masks.",
+        "support_basis": "The module must choose outputs against all environmental input histories; a strategy tree specifies an output for each history. The exposition restricts to synchronous programs. This supports the current general causal-choice context, without importing complexity bounds into ModuloSemantics's one-deadline finite masks.",
         "limits": "Formal implementability theorem/proof and automata-complexity derivation not certified."
       }
     ]
@@ -2995,7 +2995,7 @@
           "Introductory definitions/examples, printed pp.275–276 / PDF pp.2–3"
         ],
         "read_scope": "Selected original passages: private-position/barrier and blindfold examples plus outcome-problem explanation.",
-        "support_basis": "Private portions hide parts of the position; the examples distinguish perfect, incomplete and blindfold information. This supports only observation restrictions being explicit. P096 correctly disclaims inheriting these games' general complexity bounds.",
+        "support_basis": "Private portions hide parts of the position; the examples distinguish perfect, incomplete and blindfold information. This supports only observation restrictions being explicit. ModuloSemantics correctly disclaims inheriting these games' general complexity bounds.",
         "limits": "Formal later machine reductions and complexity proofs not certified or imported."
       }
     ]
@@ -3015,7 +3015,7 @@
     "entire_fulltext_read_claim": false,
     "verification_method": "Publication identity and scoped current-claim support recorded separately.",
     "checked_on": "2026-10-16",
-    "limitations": "Cited algorithm papers and implementation not checked. No full correctness proof, current-version guarantee or P096 end-to-end encoding correctness inferred from this historical tool paper.",
+    "limitations": "Cited algorithm papers and implementation not checked. No full correctness proof, current-version guarantee or ModuloSemantics end-to-end encoding correctness inferred from this historical tool paper.",
     "cited_in": "sections/08-related.tex",
     "pages": "337--340",
     "volume": "4963",
@@ -3054,7 +3054,7 @@
         ],
         "read_scope": "Selected original passages: 1 SMT decision/validity role; 2 textual inputs and APIs; 3 DPLL SAT core, congruence closure, theory combination, quantifier instantiation, bitvector bit-blasting and model generation",
         "support_basis": "Sections1/3 describe checking satisfiability of logical formulas with a Boolean SAT core and theory procedures, including finite-bitvector handling. Thus formulas can express finite Boolean feasibility without storing a complete truth table as the primary interface. The candidate makes a possible-backend statement only, and immediately disclaims an implemented backend or experimental performance comparison.",
-        "limits": "Cited algorithm papers and implementation not checked. No full correctness proof, current-version guarantee or P096 end-to-end encoding correctness inferred from this historical tool paper."
+        "limits": "Cited algorithm papers and implementation not checked. No full correctness proof, current-version guarantee or ModuloSemantics end-to-end encoding correctness inferred from this historical tool paper."
       }
     ]
   }
